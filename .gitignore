@@ -1,0 +1,30 @@
+# --- Môi trường (Environments) ---
+.env
+.venv/
+venv/
+env/
+
+# --- Docker & Database ---
+volumes/
+*.log
+
+# --- Python / Backend ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- Frontend (Giả sử dùng Node.js/React/Vue...) ---
+node_modules/
+dist/
+build/
+.next/
+
+# --- OS / Hệ điều hành ---
+.DS_Store
+Thumbs.db
